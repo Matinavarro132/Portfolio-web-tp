@@ -25,26 +25,43 @@
          </nav>    
 
          <div class="iconos">  
-            <i class="bi bi-twitter"></i>
-            <i class="bi bi-instagram"></i>
-            <i class="bi bi-github"></i>
+            <a href=""><i class="bi bi-twitter"></i></a> 
+            <a href=""><i class="bi bi-instagram"></i></a> 
+            <a href=""><i class="bi bi-github"></i></a> 
          </div>
        
     </header><!-- termina el header -->
     <main><!-- comienza el main-->
-        <section id="inicio" class="inicio"> 
-            <div> 
-                <h2>Hola!, Soy desarrollador Web</h2>
-                <h1>Full Stack</h1>
-                <h3>Actualmente residiendo en Argentina, Bs As</h3>
-                <button>View my works</button>
-                <a href="#"> Contact Me</a>
-            </div>        
-            <Div>
-                <img src="assets/Imagenes/Imagen Mia.jpg" alt="Imagen Mia">
-            </Div>
-        </section>
-        <section><!-- seccion de sobre mi -->
+        <section id="inicio" class="padre-inicio"> <!-- seccion inicio -->
+
+            <div class="contenedor-presentacion">
+
+                <div class="carta-presentacion"> 
+
+                    <h2>Hola!, Soy Programador Web</h2>
+
+                    <h1>Full Stack</h1>
+
+                    <p>Actualmente residiendo en Argentina, Bs As</p>
+
+                    <a class="boton-trabajos" href="#portfolio"> mis trabajos</a>
+
+                    <a class="boton-contacto" href="#contacto"> Contact Me <i class="bi bi-arrow-down-short"></i></a>
+
+                </div>        
+
+                <div class="presentacion-imagen">
+                    <img src="assets/Imagenes/Imagen Mia.jpg" alt="Imagen Mia">
+                </div>
+
+           </div><!-- Termina contenedor presentacion -->
+
+           <a class="boton-siguiente" href="#acerca-de"> <i class="bi bi-arrow-down-short"></i></a>
+
+        </section><!-- Termina seccion incio -->
+
+
+        <section><!-- comienza seccion de sobre mi -->
             <p id="acerca-de">Sobre mi</p>
             <p>Conoceme mas!</p>
         
@@ -56,7 +73,7 @@
             <div>
                 <p>1</p>
                 <h3>año de experiencia</h3>
-            </div>
+            </div><!-- Termina seccion sobre mi -->
             <div><!-- caja de contacto -->
                 <div>
                     <p>Name:</p>

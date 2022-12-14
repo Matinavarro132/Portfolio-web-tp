@@ -1,0 +1,123 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    color: black;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    display:flex ;
+    justify-content: space-around;
+    height: 60px;
+}
+
+.navbar{
+    display: flex;
+
+}
+
+.navbar a{
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 20px;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: 800;
+color: black;
+}
+
+.matias h2{
+    text-transform: uppercase;
+    padding-top: 15px;
+    margin-left: 45px;
+    font-size: 30px;
+}
+
+.iconos{
+   margin-top: 20px;
+}
+
+.iconos i{
+
+    padding-right: 25px;
+    margin-top: 10px;
+    font-size: 18px;
+    text-transform: none;
+    
+
+}
+
+.padre-inicio{
+    background-color: #f3d92c; 
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contenedor-presentacion{
+    height: 800px;   
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: center;
+        
+}
+
+.carta-presentacion{
+
+width: 600px;
+margin-left: 20px;
+
+
+}
+
+.presentacion-imagen img {
+   width: 400px;
+   margin-bottom: 50px;
+}
+
+    
+.carta-presentacion h2{
+font-size: 25px;
+text-transform: uppercase;
+margin-bottom: 10px;
+}
+
+.carta-presentacion h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    }
+
+.carta-presentacion p{
+   font-size: 20px;
+   margin-bottom: 35px;
+ 
+   }
+
+
+   .boton-trabajos{
+    padding-left: 25px;
+    font-size: 20px;
+    background-color: #212529;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 1px 0 4px #212529;
+   }
+
+   .boton-contacto{
+    margin-left: 30px;
+   }
+
+   .boton-siguiente{
+    font-size: 50px;
+    text-align: center;
+   }
