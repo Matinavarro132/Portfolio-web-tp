@@ -8,16 +8,21 @@ a{
     color: black;
 }
 
+
+/* COMIENZA EL NAVBAR */
 header{
     background-color: rgb(255, 255, 255);
     display:flex ;
     justify-content: space-around;
     height: 60px;
+    
+
 }
 
 .navbar{
     display: flex;
-
+    
+    
 }
 
 .navbar a{
@@ -28,6 +33,7 @@ text-decoration: none;
 text-transform: uppercase;
 font-weight: 800;
 color: black;
+
 }
 
 .matias h2{
@@ -50,6 +56,10 @@ color: black;
     
 
 }
+
+/* TERMINA EL NAVBAR */
+
+/* COMIENZA LA SECCION INICIO */
 
 .padre-inicio{
     background-color: #f3d92c; 
@@ -121,3 +131,108 @@ margin-bottom: 10px;
     font-size: 50px;
     text-align: center;
    }
+
+   /* TERMINA LA SECCION INICIO */ 
+
+   /* COMIENZA LA SECCION ACERCA DE */
+
+
+    .padre-acerca-de{
+        
+        height: 780px;
+        display: flex;
+	    flex-direction: column;
+        justify-content: center;
+    	
+
+}
+
+.acerca-de-color{
+    background-color: #f3d92c;
+    margin-top: 0px;
+    padding: 3px 5px 3px 5px;
+}
+.conoceme-mas{
+ margin-top: 15px;
+ font-size: 40px;
+
+}
+
+.contenedor-acerca-de{
+    height: 600;
+    width: 1000px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+    
+   }
+
+   .contenedor-info{   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+
+
+
+   .presentacion{
+    width: 700px;
+    height: 300px;
+    margin-top: 30px;
+    
+    
+   }
+
+   .presentacion h3{
+    font-size: 30px;
+    font-weight: 800;
+   }
+
+   .presentacion span{
+    font-size: 35px;
+    font-weight: 800;
+    
+   }
+
+   .presentacion p{
+    font-size: 20px;
+    line-height: 2;
+   }
+
+   .experiencia{
+    width: 150px;
+    height: 300px;
+    margin-left: 30px;
+   }
+
+   .experiencia h3{
+    margin-top: 20px;
+   }
+
+   .experiencia p{
+    margin-top: 50px;
+   }
+
+
+   .caja-contacto{
+    display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+   }
+
+   .caja-contacto div{
+    
+   }
+.nombrecolor{
+    color: #6c757d;
+    
+}
+

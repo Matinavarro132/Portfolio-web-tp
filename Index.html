@@ -61,47 +61,59 @@
         </section><!-- Termina seccion incio -->
 
 
-        <section><!-- comienza seccion de sobre mi -->
-            <p id="acerca-de">Sobre mi</p>
-            <p>Conoceme mas!</p>
-        
-            <div class="presentacion">
-                <p>Hola!, Soy Matias Navarro</p>
-                <p>Soy desarrollador Web Full stack en proceso! , apasionado por el mundo de la programacion y aprender Nuevas cosas todos los dias</p>
+        <section id="acerca-de" class="padre-acerca-de"><!-- comienza seccion de sobre mi -->
+                <div class="contenedor-info">
+                    <p class="acerca-de-color" >Sobre mi</p>
+                    <h4 class="conoceme-mas">Conoceme mas!</h4>
+                </div>
+            <div class="contenedor-acerca-de">
+                    
+                <div class="presentacion">
+                        <h3>Hola!, Soy <span>Matias Navarro</span></h3>  
+                        <p>Soy desarrollador Web Full stack en proceso! , apasionado por el mundo de la programacion,
+                             y aprender Nuevas cosas todos los dias, siendo aun estudiante estoy mas que entusiasmado de poder 
+                             participar en mi primer Proyecto laboral. pudiendo ayudar asi a cumplir los proyectos de muchos clientes 
+                             de todas partes del mundo.</p>
+
+                </div>
+                <div class="experiencia">
+                        <p>1</p>
+                        <h3>año de experiencia</h3>
+                 </div><!-- Termina seccion sobre mi -->
 
             </div>
-            <div>
-                <p>1</p>
-                <h3>año de experiencia</h3>
-            </div><!-- Termina seccion sobre mi -->
-            <div><!-- caja de contacto -->
+
+            <div class="caja-contacto"><!-- caja de contacto -->
                 <div>
-                    <p>Name:</p>
+                    <p class="nombrecolor">Nombre:</p>
                     <p>Matias Navarro</p>
                 </div>
                     
                 <div>
-                   <p>eMail:</p>
+                   <p class="nombrecolor">EMail:</p>
                    <p>matinavarro0307@gmail.com</p>
                 </div>
                     
                 <div>
-                    <p>Nacimiento:</p>
+                    <p class="nombrecolor">Nacimiento:</p>
                     <p>03 Julio, 2003</p>
                 </div>
 
                 <div>
-                    <p>residente:</p>
+                    <p class="nombrecolor">Residencia:</p>
                     <p>Argentina, Bs As</p>
                 </div>
             </div><!-- fin caja de contactos -->
         </section>
-        <section><!-- seccion iconos -->
+        <section id="servicios" class="padre-seccion-iconos"><!-- seccion iconos -->
 
-            <p id="servicios">lo que hago</p>
-            <h3>que puedo aportar</h3>
+            <div class="contenedor-info">
 
-            <div>
+                <p class="servicios-info1" >lo que hago</p>
+                <h3 class="servicios-info2">que puedo aportar</h3>
+
+            </div>
+            <div class="contenedor-flex">
                 <div>
                     <i class="bi bi-palette-fill"></i>
                     <h4>diseño grafico</h4>
