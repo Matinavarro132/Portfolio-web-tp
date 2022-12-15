@@ -9,6 +9,8 @@ a{
 }
 
 
+
+
 /* COMIENZA EL NAVBAR */
 header{
     background-color: rgb(255, 255, 255);
@@ -282,6 +284,22 @@ margin-bottom: 10px;
 }
 
 .servicios-info2{
+    margin-top: 15px;
+ font-size: 40px;
+}
+
+.padre-habilidades{
+height: 600px;
+background-color: aqua;
+}
+
+.titulo-habilidad{
+    margin-top: 30px;
+    background-color: #f3d92c;
+    padding: 3px 5px 3px 5px;
+}
+
+.h3-habilidad{
     margin-top: 15px;
  font-size: 40px;
 }
