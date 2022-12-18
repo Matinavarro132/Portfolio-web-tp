@@ -508,3 +508,61 @@ width: 90%;
 
 /* Termina la seccion resumen */
 /* comienza la seccion portfolio */
+
+.section-portfolio{
+    background-color: aqua;
+    width: 100%;
+    height: 1100px;
+       
+    
+}
+
+
+
+.sub-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.sub-nav a{
+    font-size: 20px;
+padding-left: 20px;
+padding-right: 20px;
+margin-bottom: 30px;
+text-decoration: none;
+
+}
+
+.contenedor-proyectos{
+    width: 1300px;
+    margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+.contenedor-proyectos img{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 15px;
+}
+
+.titulo-portfolio{
+    margin-top: 30px;
+    background-color: #f3d92c;
+    padding: 3px 5px 3px 5px;
+}
+
+.h4-portfolio{
+    margin-top: 15px;
+ font-size: 40px;
+ margin-bottom: 20px;
+}
+
+/* Termina seccion Proyectos */
+/* comienza seccion contactos */
