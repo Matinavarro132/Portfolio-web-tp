@@ -98,8 +98,13 @@ margin-left: 20px;
 }
 
 .presentacion-imagen img {
-   width: 400px;
+   width: 300px;
+   height: 350px;
    margin-bottom: 50px;
+   margin-right: 60px;
+   border-radius: 50%;
+   border: 10px solid #ececec;
+
 }
 
     
@@ -228,7 +233,8 @@ margin-bottom: 10px;
     margin-top: 50px;
    }
 
-
+/* Termina la seccion acerca de mi
+/* comienza la seccion caja de contacto */ 
    .caja-contacto{
     display: flex;
     flex-direction: row;
@@ -243,6 +249,9 @@ margin-bottom: 10px;
     color: #6c757d;
     
 }
+
+/* Termina la seccion caja de contactos */
+/* comienza la seccion iconos */
 
 .padre-seccion-iconos{
     background-color: rgb(248,249,250) ;
@@ -260,7 +269,7 @@ margin-bottom: 10px;
     align-content: center;
     width: 1200px;
    
-    height: 1000px;
+    height: 800px;
    
     flex-direction: row;
 }
@@ -269,18 +278,25 @@ margin-bottom: 10px;
     width: 300px;
     height: 300px;
     margin: 7px;
-    
+    text-align: center;    
 }
 
 
 .contenedor-flex h4{
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.contenedor-flex p{
+    line-height: 1.5;
+    color: #6c757d;
+
 }
 
 .contenedor-flex i{
-        font-size: 30px;
-    text-align: center;
+    font-size: 50px;
     color: #f3d92c;
     
     
@@ -296,11 +312,12 @@ margin-bottom: 10px;
     margin-top: 15px;
  font-size: 40px;
 }
-
+/* termina la seccion iconos */
+/* comienza la seccion resumen */
 .padre-seccion-habilidades{
 width: 100%;
 height: 950px;
-background-color: rgb(135, 204, 204);
+background-color: #f8f9fa;
 font-family: 'Poppins', sans-serif;
 
 
@@ -397,3 +414,97 @@ color: #6c757d;
 margin-top: 15px;
 margin-bottom: 15px;
 }
+
+/* termina la mitad del resumen */
+/* comienza la mitad de habilidades */
+
+
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.habilidades h2{
+    margin-bottom: 30px;
+}
+
+.contenedor-habilidades{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1400px;
+    margin-bottom: 30px;
+}
+
+.caja-habilidades{
+    margin-bottom: 25px;
+    width: 520px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+.caja-habilidades p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.porcentaje{
+    float: right;
+}
+
+.caja-habilidades hr{
+    background-color: #f3d92c;
+    border: 1px solid #f3d92c;
+    border-radius: 3px 0 0 3px;
+    height: 6px;
+}
+
+.contenedor-hr{
+    background-color: #dfdfdf;
+    border: none;
+    border-radius: 3px 3px;
+    width: 514px;
+    height: 8px;    
+}
+
+.diseño-web{
+    width: 70%;
+ }
+
+ .html-css{
+    width: 90%;
+ }
+
+ .photoshop{
+width: 90%;
+ }
+
+ .javascript{
+    width: 40%;
+     }
+
+.boostrap{
+    width: 40%;
+}
+
+.react{
+    width: 10%;
+
+}
+
+.habilidades a{
+    border: 1px solid #212529;
+    border-radius: 2px;
+    padding: 15px 40px;
+    border-width: 2px;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* Termina la seccion resumen */
+/* comienza la seccion portfolio */
