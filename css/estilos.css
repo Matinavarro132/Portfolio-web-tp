@@ -222,20 +222,24 @@ margin-bottom: 10px;
    .presentacion p{
     font-size: 20px;
     line-height: 2;
+
    }
 
-   .experiencia{
+   .experiencias{
     width: 150px;
     height: 300px;
     margin-left: 30px;
    }
 
-   .experiencia h3{
+   .experiencias h3{
     margin-top: 20px;
    }
 
-   .experiencia p{
+   .experiencias p{
     margin-top: 50px;
+    padding-left: 20px;
+
+   
    }
 
 /* Termina la seccion acerca de mi
