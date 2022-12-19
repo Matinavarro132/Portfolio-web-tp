@@ -562,6 +562,7 @@ width: 90%;
 }
 
 .habilidades a{
+    color: #000000;
     border: 1px solid #212529;
     border-radius: 2px;
     padding: 15px 40px;
@@ -571,8 +572,8 @@ width: 90%;
     text-decoration: none;
 }
 
-/* Termina la seccion resumen */
-/* comienza la seccion portfolio */
+/* Termina la seccion habilidades */
+/* comienza la seccion proyectos */
 
 .section-portfolio{
     background-color: #f8f9fa;
@@ -688,10 +689,15 @@ text-decoration: none;
 
 
 .iconos2 a{
+    color: #000000;
     text-decoration: none;
      font-size: 30px;
    
      margin-left: 25px;
+}
+
+.iconos2 i:hover{
+    color:  rgb(59,89,152);
 }
 
 
