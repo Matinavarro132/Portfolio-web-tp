@@ -1,6 +1,6 @@
 <h2 aling="center"> Trabajo Practico N1 " Portfolio Personal" </h2>
 
-<img alt=logo src="imagenes/logo.png"/>
+<img alt=logo src="/imagenes/logo.png"/>
 
 🛠 Este Trabajo Esta Realizado con:
 
