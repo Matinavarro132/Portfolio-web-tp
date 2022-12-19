@@ -16,7 +16,13 @@ a{
 }
 
 
+.efecto{
+    transition: all 0.8 linear;
+}
 
+html{
+    scroll-behavior: smooth;
+}
 
 /* COMIENZA EL NAVBAR */
 header{
