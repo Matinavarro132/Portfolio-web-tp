@@ -11,8 +11,8 @@ ul{
     text-decoration: none;
 }
 
-a{
-    color: black;
+.iconos a{
+    color: #6c757d;
 }
 
 
@@ -35,6 +35,13 @@ header{
 }
 
 
+.boton-siguiente{
+    color: #000000 ;
+}
+
+.boton-siguiente:hover{
+    transform: translateY(-10px) scale(1.50);
+}
     
 
 
@@ -53,6 +60,14 @@ text-transform: uppercase;
 font-weight: 800;
 color: black;
 
+}
+
+.navbar a:hover{
+    border-bottom: 5px solid #f3d92c;
+}
+
+.iconos i:hover{
+    color:  rgb(59,89,152);
 }
 
 .matias h2{
