@@ -595,12 +595,17 @@ width: 90%;
 }
 
 .sub-nav a{
+    color: #000000;
     font-size: 20px;
-padding-left: 20px;
-padding-right: 20px;
+margin-left: 20px;
+margin-right: 20px;
 margin-bottom: 30px;
 text-decoration: none;
 
+}
+
+.sub-nav a:hover{
+    border-bottom: 2px solid #f3d92c;
 }
 
 .contenedor-proyectos{
