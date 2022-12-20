@@ -351,6 +351,7 @@ margin-bottom: 10px;
 .contenedor-flex div:hover{
     
  box-shadow: 0 0 9px 1px #6c757d;
+ transition: 0.3s ease-out;
     
     
 }
@@ -637,7 +638,7 @@ text-decoration: none;
 
 .contenedor-proyectos img:hover{
     box-shadow: 0 0 5px 5px #6c757d;
-
+    transition: 0.3s ease-out;
 }
 
 .titulo-portfolio{
