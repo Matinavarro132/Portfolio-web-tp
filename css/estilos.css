@@ -639,6 +639,41 @@ text-decoration: none;
    
 }
 
+.box-foto1{
+    transition: all 0.5s;
+}
+
+
+.contenedor-proyectos .box-foto1 :hover {
+    transform: scale(1.045);
+    
+}
+
+.contenedor-proyectos .box-foto2 :hover {
+    transform: scale(1.045);
+    
+}
+
+.contenedor-proyectos .box-foto3 :hover {
+    transform: scale(1.045);
+    
+}
+
+.contenedor-proyectos .box-foto4 :hover {
+    transform: scale(1.045);
+    
+}
+
+.contenedor-proyectos .box-foto5 :hover {
+    transform: scale(1.045);
+    
+}
+
+.contenedor-proyectos .box-foto6 :hover {
+    transform: scale(1.045);
+    
+}
+
 .contenedor-proyectos img:hover{
     box-shadow: 0 0 5px 5px #6c757d;
     transition: 0.3s ease-out;
