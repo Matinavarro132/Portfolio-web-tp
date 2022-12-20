@@ -348,6 +348,12 @@ margin-bottom: 10px;
     text-align: center;    
 }
 
+.contenedor-flex div:hover{
+    
+ box-shadow: 0 0 9px 1px #6c757d;
+    
+    
+}
 
 .contenedor-flex h4{
     font-size: 30px;
@@ -512,6 +518,10 @@ margin-bottom: 15px;
     margin-bottom: 20px;
 
 }
+
+
+
+
 .caja-habilidades p{
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -625,6 +635,11 @@ text-decoration: none;
     margin-bottom: 15px;
 }
 
+.contenedor-proyectos img:hover{
+    box-shadow: 0 0 5px 5px #6c757d;
+
+}
+
 .titulo-portfolio{
     margin-top: 30px;
     background-color: #f3d92c;
@@ -636,6 +651,9 @@ text-decoration: none;
  font-size: 40px;
  margin-bottom: 20px;
 }
+
+
+
 
 /* Termina seccion Proyectos */
 /* comienza seccion contactos */
